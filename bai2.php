@@ -9,8 +9,7 @@
             {
              	array_push($mang_moi,$mang[$i]);
             }
-              
-             
+                          
         }
         return $mang_moi;
         

@@ -3,8 +3,7 @@
     function solon_sobe($mang)
     {
          
-        if(is_array($mang))
-        {
+        
             $min = $mang[0];
             $max = $mang[0];
 
@@ -22,10 +21,7 @@
                     return fasle;
             }
             return [$min, $max];
-        else 
-            return fasle;
     }
-
     function in_mang($mang)
     {
         foreach ($mang as $key => $value) 

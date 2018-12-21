@@ -1,5 +1,5 @@
 <?php
-     function loai_bo($mang)
+     function chuyen_ky_tu($mang)
     {
     	//$mang_can_ktra = array(a,e,i, o,u,y);
         $x = count($mang);
@@ -34,7 +34,7 @@
         }   
     }
     $ds = array('aaa','kanh io');
- 	in_mang(loai_bo($ds));
+ 	in_mang(chuyen_ky_tu($ds));
 
 
 
