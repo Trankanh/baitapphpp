@@ -2,8 +2,8 @@
        //5 1 7 2 9 3 
     function solon_sobe($mang)
     {
-         
-        
+        if(is_array($mang))
+        {
             $min = $mang[0];
             $max = $mang[0];
 
@@ -18,9 +18,11 @@
                         $max=$mang[$i];       
                 }
                 else
-                    return fasle;
+                   return fasle;
             }
             return [$min, $max];
+        }
+        else return fasle;
     }
     function in_mang($mang)
     {
